@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #7f5a83;
+  background-image: linear-gradient(to left, #0d324d, #7f5a83);
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
