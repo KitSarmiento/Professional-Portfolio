@@ -16,13 +16,13 @@ This project was created to be as friendly to users as possible. Below is the in
 
 - Home page - The webpage has straight forward navigation bar where users can easily direct to their preferred section/article. This will allow users to visit About Me, Portfolio, and Contact information.
 
--About Me - This section gives you some details about the developer. The developer also provides the link to view her CV (on that page, it will allow the user to download her CV (CV site)if the user is interested in hiring her.)
+- About Me - This section gives you some details about the developer. The developer also provides the link to view her CV (on that page, it will allow the user to download her CV (CV site)if the user is interested in hiring her.)
 
--Portfolio - The portfolio lets the user view the developer's projects. The link was included once the user hovered over the picture. Please note that links are only provided to two finished/completed projects (Pre-work-study guide and Marketing agency).
+- Portfolio - The portfolio lets the user view the developer's projects. The link was included once the user hovered over the picture. Please note that links are only provided to two finished/completed projects (Pre-work-study guide and Marketing agency).
 
--Contact - the contact session gives the user options to choose how to contact the developer. There is a form that the user may fill out if they wish to be contacted back. Social media, email, and phone numbers were also provided on the webpage for the user to reach out to the developer easily.
+- Contact - the contact session gives the user options to choose how to contact the developer. There is a form that the user may fill out if they wish to be contacted back. Social media, email, and phone numbers were also provided on the webpage for the user to reach out to the developer easily.
 
--Media Query - This is applied to the webpage to adapt depending on the size of the user's screen.
+- Media Query - This is applied to the webpage to adapt depending on the size of the user's screen.
 
 ## Credits
 

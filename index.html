@@ -13,21 +13,21 @@
       rel="stylesheet"
     />
   </head>
+
   <body>
     <header>
       <h1>Katrina Sarmiento</h1>
-
       <nav>
         <ul class="navbar">
-          <li><a href="#">Home</a></li>
+          <li><a href="#home-page">Home</a></li>
           <li><a href="#about-me">About Me</a></li>
           <li><a href="#portfolio-header">Portfolio</a></li>
-          <li><a href="#contact">Contact</a></li>
+          <li><a href="#contact-header">Contact</a></li>
         </ul>
       </nav>
     </header>
 
-    <figure>
+    <figure id="home-page">
       <img
         id="front-img"
         src="./assets/images/Profile.jpg"
@@ -78,88 +78,92 @@
     <hr />
 
     <article>
-      <div>
-        <h2 class="titles" id="portfolio-header">Portfolio</h2>
-      </div>
       <div class="portfolio">
-        <article>
-          
-          <div class="container-project">
-            <img
-              class="project-image"
-              src="./assets/images/prework-study-guide.png"
-              alt="Pre-Work-Study-Guidelines"
-            />
-            <div class="project-overlay">
-              <a
-                class="project-title"
-                href="https://kitsarmiento.github.io/prework-study-guide/"
-                target="_blank"
-                >Pre-Work-Study-Guidelines</a
-              >
-            </div>
-          </div>
+        <h2 class="titles" id="portfolio-header">Portfolio</h2>
 
-          <div class="container-project">
-            <img
-              class="project-image"
-              src="./assets/images/marketing-agency.png"
-              alt="Pre-Work-Study-Guidelines"
-            />
-            <div class="project-overlay">
-              <a
-                class="project-title"
-                href="https://kitsarmiento.github.io/UofT-Project-1/"
-                target="_blank"
-                >Marketing Agency - Code Refractor</a
-              >
-            </div>
+        <div class="container-project">
+          <img
+            class="project-image"
+            src="./assets/images/prework-study-guide.png"
+            alt="Pre-Work-Study-Guidelines"
+          />
+          <div class="project-overlay">
+            <a
+              class="project-title"
+              href="https://kitsarmiento.github.io/prework-study-guide/"
+              target="_blank"
+              >Pre-Work-Study-Guidelines</a
+            >
           </div>
+        </div>
 
-          <div class="container-project">
-            <img
-              class="project-image"
-              src="./assets/images/weather-app.png"
-              alt="Pre-Work-Study-Guidelines"
-            />
-            <div class="project-overlay">
-              <a class="project-title" href="#"
-                >Weather App (In-progress for JavaScript and API)</a
-              >
-            </div>
+        <div class="container-project">
+          <img
+            class="project-image"
+            src="./assets/images/marketing-agency.png"
+            alt="Pre-Work-Study-Guidelines"
+          />
+          <div class="project-overlay">
+            <a
+              class="project-title"
+              href="https://kitsarmiento.github.io/UofT-Project-1/"
+              target="_blank"
+              >Marketing Agency - Code Refractor</a
+            >
           </div>
+        </div>
 
-          <div class="container-project">
-            <img
-              class="project-image"
-              src="./assets/images/coming-soon.jpg"
-              alt="Coming Soon"
-            />
-            <div class="project-overlay">
-              <a class="project-title" href="#">Coming soon</a>
-            </div>
+        <div class="container-project">
+          <img
+            class="project-image"
+            src="./assets/images/weather-app.png"
+            alt="Pre-Work-Study-Guidelines"
+          />
+          <div class="project-overlay">
+            <a class="project-title" href="#"
+              >Weather App (In-progress for JavaScript and API)</a
+            >
           </div>
-        </article>
+        </div>
+
+        <div class="container-project">
+          <img
+            class="project-image"
+            src="./assets/images/coming-soon.jpg"
+            alt="Coming Soon"
+          />
+          <div class="project-overlay">
+            <a class="project-title" href="#">Coming soon</a>
+          </div>
+        </div>
       </div>
+    </article>
+
     <hr />
 
     <article>
-      <div id="contact-header">
-      <h2 class="titles" id="contact">Contact</h2>
-    </div>
+      <h2 class="titles" id="contact-header">Contact</h2>
+
       <div class="contact-information">
-       
         <div class="container-contact">
           <h3>Get in touch</h3>
-          <br>
+          <br />
           <ul>
-            <li><p>Email:<a href="mailto:ksarmiento020@gmail.ca"> ksarmiento020@gmail.ca</a></p></li>
-            <li><p>Phone number:<a href="tel: 777-777-7777"> 777-777-7777</a></p></li>
+            <li>
+              <p>
+                Email:<a href="mailto:ksarmiento020@gmail.ca">
+                  ksarmiento020@gmail.ca</a
+                >
+              </p>
+            </li>
+            <li>
+              <p>Phone number:<a href="tel: 777-777-7777"> 777-777-7777</a></p>
+            </li>
             <li><p>Address: Road to Nowhere, Iqaluit, Nunavut, X0A 0H0</p></li>
           </ul>
-          <br>
+          <br />
           <h3>Social Media</h3>
-          <br>
+          <br />
           <ul>
             <li>
               <img
@@ -199,8 +203,8 @@
 
         <div class="container-contact">
           <form class="message">
-            <p class="send-message">Send me a message</p>
-            <br>
+            <p id="send-message">Send me a message</p>
+            <br />
             <p>
               <label for="Name">Name:</label>
               <input id="Name" type="text" placeholder="Full Name" />
@@ -218,10 +222,7 @@
             <br />
             <p>
               <label for="comment">Comment:</label>
-              <textarea
-                id="comment-area"
-                placeholder="Send me a message"
-              ></textarea>
+              <textarea id="comment" placeholder="Send me a message"></textarea>
             </p>
             <br />
             <button class="btn">Send</button>
