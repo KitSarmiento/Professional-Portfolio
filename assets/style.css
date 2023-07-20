@@ -1,0 +1,92 @@
+:root {
+  --cool: "Major Mono Display", monospace;
+}
+
+* {
+  margin: 0.5px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1d2951;
+  background-image: linear-gradient(to left, #1d2951, #dbe7fc);
+}
+
+.btn {
+  width: 175px;
+  height: 35px;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(5, 29, 36);
+  border-radius: 23px;
+  justify-content: left;
+}
+
+.btn:hover {
+  font-size: 17px;
+  color: white;
+  background-color: rgb(39, 27, 204);
+}
+
+header,
+nav * {
+  display: flex;
+  background-color: #0f1438;
+  position: relative;
+  padding: 4px;
+}
+
+h1 {
+  display: flex;
+  width: 50%;
+  padding: 15px;
+  color: white;
+  font-family: var(--cool);
+  font-size: 20px;
+  background-color: #0f1438;
+}
+
+.navbar {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  list-style: none;
+  gap: 3rem;
+  background-color: #0f1438;
+}
+
+nav ul li a {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  font-family: var(--cool);
+}
+
+nav ul li a:hover {
+  color: rgb(219, 148, 219);
+}
+
+#front-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  width: 500px;
+  height: 475px;
+  border-radius: 100%;
+  border-left: 7px solid #013220;
+  border-right: 7px solid #ffd700;
+  padding: 3%;
+}
+
+.front-page-info {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  font-size: 40px;
+  font-family: var(--cool);
+  color: black;
+  margin: 2%;
+}
