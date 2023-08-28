@@ -162,7 +162,7 @@ nav ul li a:hover {
 .project-overlay {
   position: absolute;
   bottom: 0;
-  width: 75%;
+  width: 68%;
   height: 45%;
   overflow: hidden;
   background-color: rgba(15, 2, 65, 0.6);
