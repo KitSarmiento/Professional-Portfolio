@@ -9,16 +9,16 @@
 }
 
 body {
-  background-color: #ffffff;
+  background-color: #fefbdc;
   background-size: cover;
 }
 
 header,
 nav * {
   display: flex;
-  background-color: #0f1438;
+  background-color: #000000;
   position: relative;
-  padding: 4px;
+  padding: 8px;
 }
 
 h1 {
@@ -28,8 +28,7 @@ h1 {
   padding: 4px;
   color: white;
   font-family: var(--cool);
-  font-size: 20px;
-  background-color: #0f1438;
+  font-size: 30px;
 }
 
 .navbar {
@@ -38,32 +37,18 @@ h1 {
   align-items: center;
   list-style: none;
   gap: 3rem;
-  background-color: #0f1438;
 }
 
 nav ul li a {
   display: inline-block;
   font-weight: bold;
-  font-size: 20px;
+  font-size: 23px;
   color: white;
   font-family: var(--cool);
 }
 
 nav ul li a:hover {
-  color: rgb(219, 148, 219);
-}
-
-#front-img {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2%;
-  width: 500px;
-  height: 475px;
-  border-radius: 100%;
-  border-left: 7px solid #013220;
-  border-right: 7px solid #ffd700;
-  padding: 3%;
+  color: rgb(150, 148, 219);
 }
 
 .front-page-info {
@@ -105,10 +90,10 @@ nav ul li a:hover {
 }
 
 .container-about {
-  position: relative;
+  position: flex;
   justify-content: center;
   align-items: center;
-  padding: 45px;
+  padding: 5%;
 }
 
 #about-me {
@@ -116,7 +101,8 @@ nav ul li a:hover {
 }
 
 .container-about p {
-  position: relative;
+  position: flex;
+  padding: 3%;
   font-size: 25px;
   word-spacing: 0.2cm;
 }
@@ -176,13 +162,13 @@ nav ul li a:hover {
 .container-project:hover .project-title {
   margin: auto;
   padding: 50px;
-  color: rgb(175, 52, 81);
+  color: rgb(255, 255, 255);
 }
 
 .project-title {
   position: absolute;
   width: 100%;
-  color: white;
+  color: rgb(255, 255, 255);
   font-size: 25px;
   text-align: center;
   margin: auto;
