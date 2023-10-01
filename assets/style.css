@@ -9,8 +9,7 @@
 }
 
 body {
-  background-color: #1d2951;
-  background-image: linear-gradient(to left, #1d2951, #dbe7fc);
+  background-color: #ffffff;
   background-size: cover;
 }
 
@@ -150,7 +149,7 @@ nav ul li a:hover {
 
 .container-project {
   position: relative;
-  width: 40%;
+  width: 25vw;
 }
 
 .project-image {
@@ -162,23 +161,22 @@ nav ul li a:hover {
 .project-overlay {
   position: absolute;
   bottom: 0;
-  width: 68%;
-  height: 45%;
+  width: 21.4vw;
+  height: 25vh;
   overflow: hidden;
-  background-color: rgba(15, 2, 65, 0.6);
+  background-color: rgba(35, 25, 25, 0.6);
   transition: all 1s ease-out;
 }
 
 .container-project:hover .project-overlay {
-  color: rgb(219, 148, 219);
-  background-color: rgb(14, 0, 70);
+  background-color: rgb(0, 0, 0);
   height: 50%;
 }
 
 .container-project:hover .project-title {
   margin: auto;
   padding: 50px;
-  color: rgb(219, 148, 219);
+  color: rgb(175, 52, 81);
 }
 
 .project-title {
