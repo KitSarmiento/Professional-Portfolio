@@ -14,6 +14,8 @@ N/A
 
 This project was created to be as friendly to users as possible. Below is the instruction on how to use this webpage. (Note: screenshots were added to the assets folder for reference.)
 
+![scrn_shoot_navbar](https://github.com/KitSarmiento/UofT-Project-2-Professional-Portfolio/assets/135483936/aa3deaaa-dae7-4c05-a084-b211562f851f)
+
 - Home page - The webpage has straight forward navigation bar where users can easily direct to their preferred section/article. This will allow users to visit About Me, Portfolio, and Contact information.
 
 - About Me - This section gives you some details about the developer. The developer also provides the link to view her CV (on that page, it will allow the user to download her CV (CV site)if the user is interested in hiring her.)
