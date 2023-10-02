@@ -8,13 +8,13 @@ This webpage was created to showcase my skills and knowledge in web development.
 
 ## Installation
 
-N/A
+No installation is required for this project. Please refer to the usage section for instructions on how to use the project.
 
 ## Usage
 
-This project was created to be as friendly to users as possible. Below is the instruction on how to use this webpage. (Note: screenshots were added to the assets folder for reference.)
+This project was created to be as friendly to users as possible. Below is the instruction on how to use this webpage.
 
-![scrn_shoot_navbar](https://github.com/KitSarmiento/UofT-Project-2-Professional-Portfolio/assets/135483936/aa3deaaa-dae7-4c05-a084-b211562f851f)
+![About-me](https://github.com/KitSarmiento/Professional-Portfolio/assets/135483936/a9fc8164-b192-4c8e-81d2-79f7dd960bf4)
 
 - Home page - The webpage has straight forward navigation bar where users can easily direct to their preferred section/article. This will allow users to visit About Me, Portfolio, and Contact information.
 
@@ -45,5 +45,7 @@ Basic Flexbox - https://www.youtube.com/watch?v=u044iM9xsWU
 Image Hover Text Overlay Effect - https://www.youtube.com/watch?v=yfg9ChTmuKM
 
 ## License
+
+![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 MIT License - Please refer to the License in the repo.
