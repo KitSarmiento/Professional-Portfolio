@@ -135,19 +135,20 @@ nav ul li a:hover {
 
 .container-project {
   position: relative;
-  width: 25vw;
+  width: 30vw;
 }
 
 .project-image {
   display: block;
-  width: 455px;
+  width: 30vw;
   height: 400px;
+  gap: 2rem;
 }
 
 .project-overlay {
   position: absolute;
   bottom: 0;
-  width: 21.4vw;
+  width: 30vw;
   height: 25vh;
   overflow: hidden;
   background-color: rgba(35, 25, 25, 0.6);
@@ -169,7 +170,7 @@ nav ul li a:hover {
   position: absolute;
   width: 100%;
   color: rgb(255, 255, 255);
-  font-size: 25px;
+  font-size: 20px;
   text-align: center;
   margin: auto;
   padding: 50px;
@@ -229,21 +230,18 @@ form textarea {
   height: 150px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   * p {
-    font-size: 13px;
+    font-size: 11px;
   }
   .navbar {
     display: flex;
     flex-direction: column;
     gap: 1rem;
   }
-
-  #front-img {
-    width: 200px;
-    height: 175px;
+  nav ul li a {
+    font-size: 12px;
   }
-
   #avatar-img {
     width: 150px;
     height: 125px;
@@ -255,8 +253,8 @@ form textarea {
 
   .project-overlay {
     bottom: 0;
-    width: 55%;
-    height: 5%;
+    width: 30vw;
+    height: 25vh;
   }
   .project-title {
     font-size: 12px;
