@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #fefbdc;
+  background-color: #bec8c9;
   background-size: cover;
 }
 
@@ -48,7 +48,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-  color: rgb(150, 148, 219);
+  color: rgba(198, 211, 122, 0.459);
 }
 
 .front-page-info {
@@ -80,7 +80,8 @@ nav ul li a:hover {
 .btn:hover {
   font-size: 17px;
   color: white;
-  background-color: rgb(39, 27, 204);
+  border: 3px solid transparent;
+  border-color: white;
 }
 
 .about-information {
