@@ -6,6 +6,8 @@ This week's challenge is to work on a portfolio to showcase my skills and talent
 
 This webpage was created to showcase my skills and knowledge in web development. This project will also allow me to monitor and track my progress as the class continues, giving me a better understanding of the other aspects of Advance CSS, such as media query, pseudo code, flexbox, and many more. More research has been acquired to improve my skills and be more comfortable with using CSS and HTML.
 
+Link to the final project - https://kitsarmiento.github.io/Professional-Portfolio/
+
 ## Installation
 
 No installation is required for this project. Please refer to the usage section for instructions on how to use the project.
