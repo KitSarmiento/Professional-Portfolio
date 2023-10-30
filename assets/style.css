@@ -95,6 +95,7 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   padding: 5%;
+  font-size: 15px;
 }
 
 #about-me {
